@@ -2,7 +2,10 @@
 Packet Inspection for Vulnerable IOT...or pivIOT for short
 
 ## Usage
-For now...clone the repository -> compile main.cpp -> execute output with JSON formatted PCAP file
+Updated method...clone repository -> run execute.sh with path to file (or filename if in same directory) as an argument
+EX - sh execute.sh sample.json
+
+Old method...clone the repository -> compile main.cpp -> execute output with JSON formatted PCAP file
 EX - ./a.out sample.json
 
 *Note that parsing the JSON takes some time ~1 min or so depending on the size of the JSON file*
